@@ -90,6 +90,8 @@ jQuery(function( $ ){
                 globalData.desc
               ];
           
+          console.log( globalData  );
+          
           if ( data.modules ){
             var modules = parseMethods( globalData.methods );
             $('#methods').html( modules.join('') );
